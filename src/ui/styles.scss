@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+
+.Box {
+  display: flex;
+}
+.Box.horizontal {
+  flex-direction: row;
+}
+.Box.vertical {
+  flex-direction: column;
+}
+.Box.fill {
+  flex: 1;
+  overflow: auto;
+}
+.Box.items-center {
+  align-items: center;
+}
+
+.Grid {
+  display: grid;
+}
+
+.Heading {
+  margin: 0;
+  padding: 0;
+}
+
+.Popover {
+  position: absolute;
+  max-height: 200px;
+  overflow: auto;
+}
+
+.Input__element {
+  min-width: 100px;
+  width: 100%;
+  height: 100%;
+}
+
+.Combobox {
+  border: 1px solid #888888;
+}
+.Combobox input {
+  border: none;
+  outline: none;
+}
+.Combobox__arrow {
+  padding: 0;
+  border-radius: 0;
+}
+.Combobox__arrow {
+  display: inline-block;
+}
+.Combobox__options {
+  background: var(--color-popover-bg);
+}
+.Combobox__options > * {
+  padding: 0;
+  background: transparent;
+  border-radius: 0;
+}
+
+
+thead {
+  font-weight: bold;
+}
+
+
+.Dashboard {
+  flex: 1;
+  border: 1px solid white;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.Sidebar {
+  padding: 1rem;
+  overflow: auto;
+  border-top: 1px solid white;
+  border-right: 1px solid white;
+}
+.Sidebar .Link {
+  white-space: nowrap;
+}
+
+.MainPanel {
+  padding: 1rem;
+  overflow: auto;
+  border-top: 1px solid white;
+}
+
+.TeamCard {
+  padding: 1rem;
+  border: 1px solid white;
+  width: 100%;
+}
+
+.EmployeeSection {
+  padding: 1rem;
+  border: 1px solid white;
+  // overflow-y: auto;
+}
